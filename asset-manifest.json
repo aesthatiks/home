@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.c176808e.chunk.css",
+    "main.css": "/home/static/css/main.fde12df2.chunk.css",
     "main.js": "/home/static/js/main.ab8c51a1.chunk.js",
     "main.js.map": "/home/static/js/main.ab8c51a1.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.cbe70bf9.js",
@@ -8,9 +8,9 @@
     "static/js/2.86834b4a.chunk.js": "/home/static/js/2.86834b4a.chunk.js",
     "static/js/2.86834b4a.chunk.js.map": "/home/static/js/2.86834b4a.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.1e75bbf3f97e66007e7f49356ce4fb13.js": "/home/precache-manifest.1e75bbf3f97e66007e7f49356ce4fb13.js",
+    "precache-manifest.2549a512c8a665419733498ea8721657.js": "/home/precache-manifest.2549a512c8a665419733498ea8721657.js",
     "service-worker.js": "/home/service-worker.js",
-    "static/css/main.c176808e.chunk.css.map": "/home/static/css/main.c176808e.chunk.css.map",
+    "static/css/main.fde12df2.chunk.css.map": "/home/static/css/main.fde12df2.chunk.css.map",
     "static/js/2.86834b4a.chunk.js.LICENSE.txt": "/home/static/js/2.86834b4a.chunk.js.LICENSE.txt",
     "static/media/Resume.pdf": "/home/static/media/Resume.0784c30e.pdf",
     "static/media/allexis-edu.png": "/home/static/media/allexis-edu.b08279c4.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.cbe70bf9.js",
     "static/js/2.86834b4a.chunk.js",
-    "static/css/main.c176808e.chunk.css",
+    "static/css/main.fde12df2.chunk.css",
     "static/js/main.ab8c51a1.chunk.js"
   ]
 }
