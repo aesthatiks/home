@@ -1,23 +1,41 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.29c47d0f.chunk.css",
-    "main.js": "/home/static/js/main.0c52c6f2.chunk.js",
-    "main.js.map": "/home/static/js/main.0c52c6f2.chunk.js.map",
+    "main.css": "/home/static/css/main.2bd4d3a5.chunk.css",
+    "main.js": "/home/static/js/main.c060360e.chunk.js",
+    "main.js.map": "/home/static/js/main.c060360e.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.cbe70bf9.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.cbe70bf9.js.map",
-    "static/js/2.a139669e.chunk.js": "/home/static/js/2.a139669e.chunk.js",
-    "static/js/2.a139669e.chunk.js.map": "/home/static/js/2.a139669e.chunk.js.map",
+    "static/js/2.5188e64e.chunk.js": "/home/static/js/2.5188e64e.chunk.js",
+    "static/js/2.5188e64e.chunk.js.map": "/home/static/js/2.5188e64e.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.8234f5f0623bb8bf1bdaf89b40a7f1e3.js": "/home/precache-manifest.8234f5f0623bb8bf1bdaf89b40a7f1e3.js",
+    "precache-manifest.dd800662572dacd597f003670f141fe3.js": "/home/precache-manifest.dd800662572dacd597f003670f141fe3.js",
     "service-worker.js": "/home/service-worker.js",
-    "static/css/main.29c47d0f.chunk.css.map": "/home/static/css/main.29c47d0f.chunk.css.map",
-    "static/js/2.a139669e.chunk.js.LICENSE.txt": "/home/static/js/2.a139669e.chunk.js.LICENSE.txt",
-    "static/media/amar.png": "/home/static/media/amar.dbd127b4.png"
+    "static/css/main.2bd4d3a5.chunk.css.map": "/home/static/css/main.2bd4d3a5.chunk.css.map",
+    "static/js/2.5188e64e.chunk.js.LICENSE.txt": "/home/static/js/2.5188e64e.chunk.js.LICENSE.txt",
+    "static/media/Resume.pdf": "/home/static/media/Resume.0784c30e.pdf",
+    "static/media/allexis-edu.png": "/home/static/media/allexis-edu.b08279c4.png",
+    "static/media/amar.png": "/home/static/media/amar.dbd127b4.png",
+    "static/media/appletv-details.jpg": "/home/static/media/appletv-details.4fbbe969.jpg",
+    "static/media/appletv-epg.jpg": "/home/static/media/appletv-epg.954bc704.jpg",
+    "static/media/appletv-home.jpg": "/home/static/media/appletv-home.70040a7a.jpg",
+    "static/media/cover.jpg": "/home/static/media/cover.26ac708b.jpg",
+    "static/media/ios-details-w.jpg": "/home/static/media/ios-details-w.32eaa603.jpg",
+    "static/media/ios-details.jpg": "/home/static/media/ios-details.121175e4.jpg",
+    "static/media/ios-epg-w.jpg": "/home/static/media/ios-epg-w.1325c646.jpg",
+    "static/media/ios-epg.jpg": "/home/static/media/ios-epg.2a9efebf.jpg",
+    "static/media/ios-home-w.jpg": "/home/static/media/ios-home-w.813ae52c.jpg",
+    "static/media/ios-home.jpg": "/home/static/media/ios-home.d59bd264.jpg",
+    "static/media/stb-details.jpg": "/home/static/media/stb-details.ad549fb0.jpg",
+    "static/media/stb-epg.jpg": "/home/static/media/stb-epg.515c8443.jpg",
+    "static/media/stb-home.jpg": "/home/static/media/stb-home.7e49caf5.jpg",
+    "static/media/web-details.jpg": "/home/static/media/web-details.98252408.jpg",
+    "static/media/web-epg.jpg": "/home/static/media/web-epg.07acb01c.jpg",
+    "static/media/web-home.jpg": "/home/static/media/web-home.355df70f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.cbe70bf9.js",
-    "static/js/2.a139669e.chunk.js",
-    "static/css/main.29c47d0f.chunk.css",
-    "static/js/main.0c52c6f2.chunk.js"
+    "static/js/2.5188e64e.chunk.js",
+    "static/css/main.2bd4d3a5.chunk.css",
+    "static/js/main.c060360e.chunk.js"
   ]
 }
