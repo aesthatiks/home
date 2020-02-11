@@ -24,7 +24,7 @@ import stbEPG from '../../images/projects/wecast/stb-epg.jpg';
 
 import cover from '../../images/projects/wecast/cover.jpg';
 
-const Wecast = props => {
+const AllexisEdu = props => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -38,6 +38,7 @@ const Wecast = props => {
         <img src={cover} alt='Wecast cover'></img>
 
         <div className='divider'></div>
+
         <div className='col-2'>
           <div className='mt-40'>
             <h3>The task</h3>
@@ -131,4 +132,4 @@ const Wecast = props => {
   );
 };
 
-export default Wecast;
+export default AllexisEdu;

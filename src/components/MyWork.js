@@ -1,10 +1,14 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import image from '../images/amar.png';
 import wecast from '../images/projects/wecast/web-home.jpg';
-import allexisEdu from '../images/projects/allexis-edu.png';
+//import allexisEdu from '../images/projects/allexis-edu.png';
 
 const MyWork = props => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <Fragment>
       <div className='aesthatiks-name'>
@@ -45,22 +49,6 @@ const MyWork = props => {
             </div>
             <div className='project-image'>
               <img src={wecast} alt='WeCast Home' />
-            </div>
-          </div>
-        </Link>
-
-        <Link to='/mywork/allexis-edu' className='project-block'>
-          <div className='project-name'>
-            <p className='project-name-main'>Allexis Edu</p>
-            <p className='project-name-sub'>learning platform</p>
-          </div>
-
-          <div className='project-image-block'>
-            <div className='project-image-blur'>
-              <img src={allexisEdu} alt='Allexis Edu' />
-            </div>
-            <div className='project-image'>
-              <img src={allexisEdu} alt='Allexis Edu' />
             </div>
           </div>
         </Link>

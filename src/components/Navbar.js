@@ -53,11 +53,6 @@ const Navbar = props => {
             About
           </NavLink>
         </li>
-        <li>
-          <a href='https://www.instagram.com/aesthatiks/' target='_blank' rel='noopener noreferrer'>
-            Instagram
-          </a>
-        </li>
       </ul>
       <div className={'hamburger hamburger--squeeze js-hamburger ' + (activeMenu.isActive ? 'is-active' : '')} onClick={toggleMenu}>
         <div className='hamburger-box'>

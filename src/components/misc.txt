@@ -17,3 +17,22 @@
           in-house projects, completely from the begining, helping the stackeholders develop their ideas, find and realize their problems,
           and create solutions that would fit both their business plans and their users.
         </p>
+
+
+
+
+        <Link to='/mywork/allexis-edu' className='project-block'>
+          <div className='project-name'>
+            <p className='project-name-main'>Allexis Edu</p>
+            <p className='project-name-sub'>learning platform</p>
+          </div>
+
+          <div className='project-image-block'>
+            <div className='project-image-blur'>
+              <img src={allexisEdu} alt='Allexis Edu' />
+            </div>
+            <div className='project-image'>
+              <img src={allexisEdu} alt='Allexis Edu' />
+            </div>
+          </div>
+        </Link>
