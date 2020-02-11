@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ee156e3d23b2ce3eb0a35f0ac20494c",
+    "revision": "8ee308d12d0a5bbf1131864be58f2808",
     "url": "/home/index.html"
   },
   {
-    "revision": "c9a001987bb827bd2728",
-    "url": "/home/static/css/main.c80a4b30.chunk.css"
+    "revision": "a2abb43de53086582e80",
+    "url": "/home/static/css/main.2d6dc9f8.chunk.css"
   },
   {
-    "revision": "952c8a7b69ad2032ef11",
-    "url": "/home/static/js/2.5188e64e.chunk.js"
+    "revision": "e434b79df899436bb59e",
+    "url": "/home/static/js/2.a7cee87f.chunk.js"
   },
   {
-    "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/home/static/js/2.5188e64e.chunk.js.LICENSE.txt"
+    "revision": "9c7779031c4c8805fc7d076e2426e7ed",
+    "url": "/home/static/js/2.a7cee87f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c9a001987bb827bd2728",
-    "url": "/home/static/js/main.c060360e.chunk.js"
+    "revision": "a2abb43de53086582e80",
+    "url": "/home/static/js/main.0e8a89c9.chunk.js"
   },
   {
     "revision": "e2ecd50f7898552ba4c4",
@@ -26,10 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0784c30ec63c853808ddba44ee300522",
     "url": "/home/static/media/Resume.0784c30e.pdf"
-  },
-  {
-    "revision": "b08279c4d00c1370f84dd1cdd305cb6d",
-    "url": "/home/static/media/allexis-edu.b08279c4.png"
   },
   {
     "revision": "dbd127b448013e846163125c48207855",
