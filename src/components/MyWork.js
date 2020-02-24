@@ -1,7 +1,8 @@
 import React, { Fragment, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import image from '../images/amar.png';
-import wecast from '../images/projects/wecast/web-home.jpg';
+import wecast from '../images/projects/wecast/cover.jpg';
+import aio from '../images/projects/aiolounge/cover.jpg';
 //import allexisEdu from '../images/projects/allexis-edu.png';
 
 const MyWork = props => {
@@ -11,7 +12,7 @@ const MyWork = props => {
 
   return (
     <Fragment>
-      <div className='aesthatiks-name'>
+      <div className='aesthatiks-name fade-in-1'>
         <svg width='1010px' height='220px' viewBox='0 0 1010 220' version='1.1'>
           <title>I did this</title>
           <g id='Page-1' stroke='none' strokeWidth='1' fill='none' fillRule='evenodd' opacity='0.0631975446'>
@@ -24,7 +25,7 @@ const MyWork = props => {
           </g>
         </svg>
       </div>
-      <div className='aesthatiks-tagline'>
+      <div className='aesthatiks-tagline fade-in-2'>
         <svg width='99px' height='22px' viewBox='0 0 99 22' version='1.1' className='mb-24'>
           <title>Projects</title>
           <g id='Page-1' stroke='none' strokeWidth='1' fill='none' fillRule='evenodd' opacity='0.8'>
@@ -36,6 +37,7 @@ const MyWork = props => {
             </g>
           </g>
         </svg>
+
         <Link to='/mywork/wecast' className='project-block'>
           <div className='project-name'>
             <p className='project-name-main'>WeCast</p>
@@ -49,6 +51,22 @@ const MyWork = props => {
             </div>
             <div className='project-image'>
               <img src={wecast} alt='WeCast Home' />
+            </div>
+          </div>
+        </Link>
+
+        <Link to='/mywork/aio-lounge' className='project-block'>
+          <div className='project-name'>
+            <p className='project-name-main'>AIO Lounge</p>
+            <p className='project-name-sub'>Media consumption platform</p>
+          </div>
+
+          <div className='project-image-block'>
+            <div className='project-image-blur'>
+              <img src={aio} alt='WeCast Home' />
+            </div>
+            <div className='project-image'>
+              <img src={aio} alt='WeCast Home' />
             </div>
           </div>
         </Link>

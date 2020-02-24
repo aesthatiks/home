@@ -4,7 +4,7 @@ import image from '../images/amar.png';
 const Landing = props => {
   return (
     <Fragment>
-      <div className='aesthatiks-name'>
+      <div className='aesthatiks-name fade-in-1'>
         <svg width='1268px' height='220px' viewBox='0 0 1268 220' version='1.1'>
           <title>Aesthatiks</title>
           <g id='Page-1' stroke='none' strokeWidth='1' fill='none' fillRule='evenodd' opacity='0.05'>
@@ -17,7 +17,7 @@ const Landing = props => {
           </g>
         </svg>
       </div>
-      <div className='aesthatiks-tagline'>
+      <div className='aesthatiks-tagline fade-in-2'>
         <svg width='608px' viewBox='0 0 608 153' version='1.1'>
           <title>Tagline</title>
           <desc>Creating designs not only seen but felt</desc>
@@ -41,7 +41,7 @@ const Landing = props => {
           </g>
         </svg>
       </div>
-      <div className='aesthatiks-image'>
+      <div className='aesthatiks-image fade-in-3'>
         <img src={image} alt='Amar'></img>
       </div>
     </Fragment>

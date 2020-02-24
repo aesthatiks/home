@@ -1,12 +1,15 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import image from '../images/amar.png';
 import portfolio from '../images/Resume.pdf';
 import { Link } from 'react-router-dom';
 
 const About = props => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Fragment>
-      <div className='aesthatiks-name'>
+      <div className='aesthatiks-name fade-in-1'>
         <svg width='995px' height='220px' viewBox='0 0 995 220' version='1.1'>
           <title>Who am I</title>
           <g id='Page-1' stroke='none' strokeWidth='1' fill='none' fillRule='evenodd' opacity='0.0631975446'>
@@ -19,7 +22,7 @@ const About = props => {
           </g>
         </svg>
       </div>
-      <div className='aesthatiks-tagline'>
+      <div className='aesthatiks-tagline fade-in-2'>
         <svg width='94px' height='22px' viewBox='0 0 94 22' version='1.1' className='left'>
           <title>INSHORT</title>
           <g id='Page-1' stroke='none' strokeWidth='1' fill='none' fillRule='evenodd' opacity='0.798293341'>
@@ -49,7 +52,7 @@ const About = props => {
           Download Full Resume
         </Link>
       </div>
-      <div className='aesthatiks-image'>
+      <div className='aesthatiks-image fade-in-3'>
         <img src={image} alt='Amar'></img>
       </div>
     </Fragment>

@@ -77,7 +77,12 @@ const Wecast = props => {
           </div>
           <div className='mt-40'>
             <h3>What I learned</h3>
-            <p>A lot!</p>
+            <p>
+              Redesigning a fully developed legacy system takes a lot of analysis and research, especially just coming into the company one
+              needs to talk a lot to the devs and managers to get all of the details even the less important ones. I learned that it takes a
+              well explained reason why the decision was made to remove or add some items, and making those decision needs a lot of
+              communication with the devs to check how much effort a simple UI change can make for them.
+            </p>
           </div>
         </div>
 
@@ -123,10 +128,11 @@ const Wecast = props => {
       <Link to='/mywork' className='btn-download mt-40 mb-120'>
         Back to Project List
       </Link>
-
-      <ScrollToTop showUnder={300} duration={700} style={{ right: '20px' }}>
-        <span className='scroll-btn'></span>
-      </ScrollToTop>
+      <div className='scroll-position'>
+        <ScrollToTop showUnder={300} duration={700} style={{ right: '20px' }}>
+          <span className='scroll-btn'></span>
+        </ScrollToTop>
+      </div>
     </Fragment>
   );
 };

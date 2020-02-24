@@ -1,23 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = props => {
-  const [activeMenu, setActiveMenu] = useState({
-    isActive: false
-  });
-
-  const toggleMenu = () => {
-    setActiveMenu({ ...activeMenu, isActive: !activeMenu.isActive });
-  };
-  const toggleMenuOn = () => {
-    if (activeMenu.isActive) {
-      setActiveMenu({ ...activeMenu, isActive: false });
-    }
-  };
-
   return (
     <nav>
-      <Link className='home' to='/'>
+      <Link className='home zoom' to='/'>
         <svg height='40px' viewBox='0 0 75 54'>
           <title>Aesthatiks</title>
           <g id='Page-1' stroke='none' strokeWidth='1' fill='none' fillRule='evenodd' opacity='0.803617932'>
@@ -37,28 +24,23 @@ const Navbar = props => {
           </g>
         </svg>
       </Link>
-      <ul className={activeMenu.isActive ? 'is-active' : ''}>
+      <ul>
         <li>
-          <NavLink exact activeClassName='active' to='/' onClick={toggleMenuOn}>
+          <NavLink exact activeClassName='active' to='/'>
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink activeClassName='active' to='/mywork' onClick={toggleMenuOn}>
+          <NavLink activeClassName='active' to='/mywork'>
             My Work
           </NavLink>
         </li>
         <li>
-          <NavLink exact activeClassName='active' to='/about' onClick={toggleMenuOn}>
+          <NavLink exact activeClassName='active' to='/about'>
             About
           </NavLink>
         </li>
       </ul>
-      <div className={'hamburger hamburger--squeeze js-hamburger ' + (activeMenu.isActive ? 'is-active' : '')} onClick={toggleMenu}>
-        <div className='hamburger-box'>
-          <div className='hamburger-inner'></div>
-        </div>
-      </div>
     </nav>
   );
 };
